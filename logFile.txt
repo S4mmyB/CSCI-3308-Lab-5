@@ -1,0 +1,40 @@
+CSCI 3308 Lab5 - Merge Conflict Log File
+Sam Bennetts
+ 
+*Note: Supplementary screenshots of the conflict have been included
+
+1. Error 
+
+sabe@Denali MINGw64 ~ Documents/Spring 2018/Software Development/Lab5 (master)
+$ git pull
+Auto-mergint README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts then commit the result
+
+2. Resolution 
+
+sabe@Denali MINGw64 ~ Documents/Spring 2018/Software Development/Lab5 (master)
+$ nano README.md
+
+< I deleted the changes made by my partner > 
+
+$ git add .
+
+$ git commit -m "fixed"
+[master 395f8d5] fixed
+
+$ git push origin master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 555 bytes | 555.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/S4mmyB/CSCI-3308-Lab-5.git
+   f68357e..395f8d5  master -> master
+
+
+ 
+
+ 
+
