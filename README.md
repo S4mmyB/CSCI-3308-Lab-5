@@ -2,4 +2,6 @@
 # Sam Bennetts
 # 22 February 2017
 
+This might cause a merge conflict"
+
 # Partner name: Kayla Gehring
