@@ -2,4 +2,4 @@
 # Sam Bennetts
 # 22 February 2017
 
-# Partner: Kayla Gehring
+# Partner name: Kayla Gehring
